@@ -1,53 +1,22 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <title>Nah Son, Free Pie Haxing! - NSFPHax.com</title>
-
     <link rel="icon" href="favicon.png" type="image/png" />
-
     <link rel="shortcut icon" href="favicon.ico" type="img/x-icon" />
-
     <meta charset="utf-8" />
-
     <meta name="author" content="Nah Son, Free Pie! Gaming" />
-
     <meta name="description" content="See our hax. NSFP Hax." />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
-
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-
-    <script type="text/javascript" src="js/main.js"></script>
-
-    <style>
-      .embed-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        height: 0;
-        overflow: hidden;
-        max-width: 100%;
-      }
-      .embed-container iframe,
-      .embed-container object,
-      .embed-container embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
 
   <body>
     <header>
       <div class="logo">
-        <a href="index.html" style="text-decoration: none;"
+        <a href="./" style="text-decoration: none;"
           ><h1><img src="img/logo.png" alt="NSFPHax.com" /></h1
         ></a>
       </div>
@@ -57,8 +26,6 @@
 
       <nav>
         <ul>
-          <li><a href="index.html" class="selected">Home</a></li>
-
           <li><a href="./nsfphax0.1-beta337.zip">Hax Client</a></li>
 
           <li>
@@ -106,9 +73,14 @@
     <!-- end header -->
 
     <section id="haxvids" class="main clearfix">
-      <h2 id="haxvidsstatus"></h2>
+      <p id="haxvidsstatus"></p>
     </section>
 
+    <!-- Load scripts after dom is ready -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/key.js"></script>
+    <!-- js file containing apiKey string variable -->
     <script src="js/yt_uploads.js"></script>
   </body>
 </html>
