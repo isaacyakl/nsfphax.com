@@ -1,5 +1,5 @@
 # nsfphax.com
 
-[NSFPHax.com](https://nsfphax.com) is a joke site for the [Nah Son, Free Pie! gaming](http://nsfpgaming.com) community. It displays twelve of the latest videos on the "NSFPHax.com" playlist at the [NSFPGaming YouTube channel](https://www.youtube.com/channel/UCY_WxlLSJkAX9bBLetuyy8g).
+[NSFPHax.com](https://nsfphax.com) is a joke site for the [Nah Son, Free Pie! gaming](http://nsfpgaming.com) community. It displays twelve of the latest videos of community members "hacking" from the [NSFPGaming YouTube channel](https://www.youtube.com/channel/UCY_WxlLSJkAX9bBLetuyy8g). This is accomplished with a little jQuery and the YouTube API.
 
-The joke started within the community: while playing Counter-Strike: Global Offensive if a member pulled off an awesome play the rest of the team would spam links to where they got their hacks from — "nsfphax.com". For a while, talk of actually putting up a website which had videos of their epic plays, was thrown around until one day I decided I would make it happen. I even wrote a fake "hax" client which you can find in the [.zip](https://github.com/isaacyakl/nsfphax.com/blob/master/nsfphax0.1-beta337.zip) file on the website.
+[Read more...](https://www.isaacyakl.com/work/nsfpgaming)
